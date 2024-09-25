@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up-styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>JETFLIX Sign Up Page</title>
+</head>
+<body>
+    <header>
+        <a href="./home_page.html">
+            <img class="logo" src="./Assets/Logo JETFLIX FULL.png" alt="">
+        </a>
+        
+        <input type="checkbox" id="hamburger-menu">
+        <label for="hamburger-menu"><img src="./Assets/Menu.png" alt="" class="menu"></label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="language" href="#"><img class="internet" src="./Assets/internet.png" alt="">English<img src="./Assets/down.png" alt="" class="down"></a>
+                    <ul>
+                        <li class="dd-eng"><a class="dropdown-english" href="#"><span class="dot"></span>English</a></li>
+                        <li class="dd-ind"><a class="dropdown-indonesia" href="#">Indonesia</a></li>
+                    </ul>
+                </li>
+                <li><a class="sign-in" href="./movies_page.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <img src="./Assets/jetflix-spider.png" alt="" class="cool-pic">
+        <div class="regis">
+            <br>
+            <h1>Create Account</h1>
+            <br>
+            <form action="./movies_page.html" class="create-account">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="input-name" placeholder="Enter your name">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="input-password" placeholder="Enter your password">
+                <br>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" name="confirm-password" id="input-confirm-password" placeholder="Confirm your password">
+                <br>
+                <label for="month-day-year">What's your date of birth</label>
+                <div class="month-day-year">
+                    <select name="month" id="select-month">
+                        <option>Month</option>
+                        <option>January</option>
+                        <option>Febuary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select name="day" id="select-day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select name="year" id="select-year">
+                        <option>Year</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                    </select>
+                </div>
+                <br>
+                <label for="input-gender">Gender</label>
+                <div class="input-gender">
+                    <div class="male-options">
+                        <input type="radio" name="gender" id="select-gender-male">
+                        <label for="select-gender-male">Male</label>
+                    </div>
+                    <div class="female-options">
+                        <input type="radio" name="gender" id="select-gender-female">
+                        <label for="select-gender-female">Female</label>
+                    </div>
+                </div>
+                <br>
+                <div class="term">
+                    <input type="checkbox" name="term-conditions" id="input-term-conditions" class="input-term-conditions">
+                    <label for="input-term-conditions">By creating an account, I agree to<br><a href="">Term and Conditions</a></label>
+                </div>
+                <br>
+                <button type="submit" class="submit-form">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="splitter4">
+        <div class="line4"></div>
+    </div>
+
+    <section class="footer">
+        <div class="row">
+            <div class="frame1">
+                <span>Contact Information</span>
+                <span>Privacy Policy</span>
+                <span>FAQ</span>
+            </div>
+            <div class="frame2">
+                <span>Help and Support</span>
+                <span>Partnerships</span>
+                <span>Careers</span>
+            </div>
+            <div class="frame3">
+                <span>Copyright and Terms</span>
+                <span>About Us</span>
+                <span>Legal Notices</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="social-apps">
+        <img src="./Assets/social.png" alt="" class="social">
+        <img src="./Assets/apps.png" alt="" class="apps">
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

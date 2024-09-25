@@ -1,0 +1,1575 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #0A0A0A;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #000000;
+    box-shadow: 0px 5.62225px 0px rgba(106, 7, 183, 0.25);
+    padding: 15px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo{
+    width: 152.55px;
+    height: 40px;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul a{
+    color: #7e7e7e;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.news-popular{
+    color: #6A07B7;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.search-stuff{
+    width: 24vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-stuff input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.search-stuff input:focus{
+    outline: 0;
+}
+
+.search-stuff button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.icon{
+    width: 20px;
+    height: auto;
+}
+
+header .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture{
+    width: 40px;
+    height: 40px;
+}
+
+.settings{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#hamburger-menu{
+    display:none;
+}
+
+header .dropdown-menu{
+    display: none;
+}
+
+header label{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+
+.top-movies{
+    margin-top: 100px; margin-bottom: 20px; margin-left: 6vw; margin-right: 6vw;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.top-movies h1{
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.first-movie{
+    position: relative;
+}
+
+.gotg3{
+    width: 100%;
+    height: auto;
+}
+
+.gotg-info{
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    top: 15%;
+    left: 4%;
+}
+
+.gotg-name{
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.gotg-genre{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #6A07B7;
+}
+
+.gotg-synopsis{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.gotg-direc-casts{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.gotg-button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.gotg-watch-button{
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.gotg-play{
+    margin-right: 6%;
+    width: 30%;
+    height: auto;
+}
+
+.gotg-watch-button:hover{
+    background: #35005E;
+}
+
+.gotg-download-button{
+    margin-left: 2%;
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.gotg-download{
+    margin-right: 6%;
+    width: 25%;
+    height: auto;
+}
+
+.gotg-download-button:hover{
+    background: #35005E;
+}
+
+.second-movie{
+    position: relative;
+}
+
+.mario{
+    width: 100%;
+    height: auto;
+}
+
+.mario-info{
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    top: 16%;
+    left: 4%;
+}
+
+.mario-name{
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.mario-genre{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #6A07B7;
+}
+
+.mario-synopsis{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.mario-direc-casts{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.mario-button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mario-watch-button{
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.mario-play{
+    margin-right: 6%;
+    width: 30%;
+    height: auto;
+}
+
+.mario-watch-button:hover{
+    background: #35005E;
+}
+
+.mario-download-button{
+    margin-left: 2%;
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.mario-download{
+    margin-right: 6%;
+    width: 25%;
+    height: auto;
+}
+
+.mario-download-button:hover{
+    background: #35005E;
+}
+
+.third-movie{
+    position: relative;
+}
+
+.wick4{
+    width: 100%;
+    height: auto;
+}
+
+.wick4-info{
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    top: 15%;
+    left: 4%;
+}
+
+.wick4-name{
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.wick4-genre{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #6A07B7;
+}
+
+.wick4-synopsis{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.wick4-direc-casts{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.wick4-button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.wick4-watch-button{
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.wick4-play{
+    margin-right: 6%;
+    width: 30%;
+    height: auto;
+}
+
+.wick4-watch-button:hover{
+    background: #35005E;
+}
+
+.wick4-download-button{
+    margin-left: 2%;
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.wick4-download{
+    margin-right: 6%;
+    width: 25%;
+    height: auto;
+}
+
+.wick4-download-button:hover{
+    background: #35005E;
+}
+
+.fourth-movie{
+    position: relative;
+}
+
+.avatar{
+    width: 100%;
+    height: auto;
+}
+
+.avatar-info{
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    top: 14%;
+    left: 4%;
+}
+
+.avatar-name{
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.avatar-genre{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #6A07B7;
+}
+
+.avatar-synopsis{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.avatar-direc-casts{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.avatar-button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.avatar-watch-button{
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.avatar-play{
+    margin-right: 6%;
+    width: 30%;
+    height: auto;
+}
+
+.avatar-watch-button:hover{
+    background: #35005E;
+}
+
+.avatar-download-button{
+    margin-left: 2%;
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.avatar-download{
+    margin-right: 6%;
+    width: 25%;
+    height: auto;
+}
+
+.avatar-download-button:hover{
+    background: #35005E;
+}
+
+.fifth-movie{
+    position: relative;
+}
+
+.dnd{
+    width: 100%;
+    height: auto;
+}
+
+.dnd-info{
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    top: 13%;
+    left: 4%;
+}
+
+.dnd-name{
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.dnd-genre{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #6A07B7;
+}
+
+.dnd-synopsis{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.dnd-direc-casts{
+    margin-top: 5%;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.dnd-button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dnd-watch-button{
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.dnd-play{
+    margin-right: 6%;
+    width: 30%;
+    height: auto;
+}
+
+.dnd-watch-button:hover{
+    background: #35005E;
+}
+
+.dnd-download-button{
+    margin-left: 2%;
+    width: 100%;
+    padding: 4% 16%;
+    background: #6A07B7;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.dnd-download{
+    margin-right: 6%;
+    width: 25%;
+    height: auto;
+}
+
+.dnd-download-button:hover{
+    background: #35005E;
+}
+
+.news{
+    margin-top: 40px;margin-left: 6vw; margin-right: 6vw;
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.news h1{
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.first-news{
+    display: flex;
+    background: #000000;
+    padding: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border: 0.1px solid #6A07B7;
+    border-radius: 1.2vw;
+    gap: 2vw;
+    cursor: pointer;
+}
+
+.spider-news{
+    width: 20%;
+    height: auto;
+}
+
+.spider-news-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.spider-news-info h1{
+    font-size: 1.8vw;
+    color: #6A07B7;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.spider-news-info .span1{
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+.spider-news-info .span2{
+    font-size: 1vw;
+    color: #7e7e7e;
+}
+
+.second-news{
+    display: flex;
+    background: #000000;
+    padding: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border: 0.1px solid #6A07B7;
+    border-radius: 1.2vw;
+    gap: 2vw;
+    cursor: pointer;
+}
+
+.ff-news{
+    width: 20%;
+    height: auto;
+}
+
+.ff-news-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.ff-news-info h1{
+    font-size: 1.8vw;
+    color: #6A07B7;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.ff-news-info .spanff1{
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+.ff-news-info .spanff2{
+    font-size: 1vw;
+    color: #7e7e7e;
+}
+
+.third-news{
+    display: flex;
+    background: #000000;
+    padding: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border: 0.1px solid #6A07B7;
+    border-radius: 1.2vw;
+    gap: 2vw;
+    cursor: pointer;
+}
+
+.op-news{
+    width: 20%;
+    height: auto;
+}
+
+.op-news-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.op-news-info h1{
+    font-size: 1.8vw;
+    color: #6A07B7;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.op-news-info .spanop1{
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+.op-news-info .spanop2{
+    font-size: 1vw;
+    color: #7e7e7e;
+}
+
+.splitter4{
+    padding: 3.1vh 2.1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line4{
+    border-top: 2px solid #6A07B7;
+    width: 100%;
+}
+
+.footer{
+    padding: 3vh 10%;
+}
+
+.footer .row{
+    margin-top: -3.6vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frame1{
+    margin-left: 1.5%; margin-right: 1.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame2{
+    margin-left: 1.5%; margin-right: 1.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame3{
+    margin-left: 1.5%; margin-right: 1.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame1 span{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.frame2 span{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.frame3 span{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.social-apps{
+    margin: 3% 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-apps img{
+    width: 15%;
+    height: 15%;
+}
+
+@media(max-width:1200px){
+    header{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        display: none;
+    }
+
+    .search-bar{
+        display: none;
+    }
+    
+    header .profile{
+        display: none;
+    }
+
+    .dropdown-menu{
+        position: fixed;
+        width: 100%;
+        margin-top: -40px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000000;
+        z-index: 1001;
+        padding: 20px;
+        box-shadow: 0px 5.62225px 0px rgba(106, 7, 183, 0.25);
+    }
+
+    .search-bar-dropdown{
+        display: flex;
+        padding: 10px;
+    }
+
+    .search-stuff-dropdown{
+        width: 200%;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        border-radius: 60px;
+        padding: 10px 20px;
+    }
+    
+    .search-stuff-dropdown input{
+        background: transparent;
+        flex:1;
+        border: 0;
+        font-size: 16px;
+        color: #000000;
+    }
+    
+    .search-stuff-dropdown input:focus{
+        outline: 0;
+    }
+    
+    .search-stuff-dropdown button{
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .dropdown-menu ul a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        color: #7e7e7e;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    #new-pop-dd{
+        color: #6A07B7;
+    }
+}
+
+@media(max-width: 768px){
+    .top-movies{
+        margin-left: 0%; margin-right: 0%;
+    }
+
+    .top-movies h1{
+        font-size: 3.2vw;
+    }
+
+    .gotg-info{
+        position: absolute;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+        top: 12%;
+        left: 3%;
+    }
+    
+    .gotg-name{
+        font-size: 4.2vw;
+    }
+    
+    .gotg-genre{
+        font-size: 1.4vw;
+    }
+    
+    .gotg-synopsis{
+        font-size: 1.4vw;
+    }
+    
+    .gotg-direc-casts{
+        font-size: 1.4vw;
+
+    }
+    
+    .gotg-watch-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .gotg-download-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .mario-info{
+        position: absolute;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+        top: 15%;
+        left: 3%;
+    }
+    
+    .mario-name{
+        font-size: 4.2vw;
+    }
+    
+    .mario-genre{
+        font-size: 1.4vw;
+    }
+    
+    .mario-synopsis{
+        font-size: 1.4vw;
+    }
+    
+    .mario-direc-casts{
+        font-size: 1.4vw;
+
+    }
+    
+    .mario-watch-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .mario-download-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .wick4-info{
+        position: absolute;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+        top: 12%;
+        left: 3%;
+    }
+    
+    .wick4-name{
+        font-size: 4.2vw;
+    }
+    
+    .wick4-genre{
+        font-size: 1.4vw;
+    }
+    
+    .wick4-synopsis{
+        font-size: 1.4vw;
+    }
+    
+    .wick4-direc-casts{
+        font-size: 1.4vw;
+
+    }
+    
+    .wick4-watch-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .wick4-download-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .avatar-info{
+        position: absolute;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+        top: 10%;
+        left: 3%;
+    }
+    
+    .avatar-name{
+        font-size: 4.2vw;
+    }
+    
+    .avatar-genre{
+        font-size: 1.4vw;
+    }
+    
+    .avatar-synopsis{
+        font-size: 1.4vw;
+    }
+    
+    .avatar-direc-casts{
+        font-size: 1.4vw;
+
+    }
+    
+    .avatar-watch-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .avatar-download-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .dnd-info{
+        position: absolute;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: left;
+        top: 10%;
+        left: 3%;
+    }
+    
+    .dnd-name{
+        font-size: 4.2vw;
+    }
+    
+    .dnd-genre{
+        font-size: 1.4vw;
+    }
+    
+    .dnd-synopsis{
+        font-size: 1.4vw;
+    }
+    
+    .dnd-direc-casts{
+        font-size: 1.4vw;
+
+    }
+    
+    .dnd-watch-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .dnd-download-button{
+        padding: 6% 20%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .news{
+        margin-left: 0%; margin-right: 0%;
+    }
+    
+    .news h1{
+        font-size: 3.2vw;
+    }
+
+    .first-news{
+        border-left: 0.1vw solid #000000; border-right: 0.1vw solid #000000;
+        border-radius: 0%;
+    }
+    
+    .spider-news{
+        width: 22%;
+        height: auto;
+    }
+    
+    .spider-news-info h1{
+        font-size: 2.2vw;
+    }
+    
+    .spider-news-info .span1{
+        font-size: 1.4vw;
+        color: #ffffff;
+    }
+    
+    .spider-news-info .span2{
+        font-size: 1.4vw;
+        color: #7e7e7e;
+    }
+    
+    .second-news{
+        border-left: 0.1vw solid #000000; border-right: 0.1vw solid #000000;
+        border-radius: 0%;
+    }
+    
+
+    .ff-news{
+        width: 22%;
+        height: auto;
+    }
+    
+    
+    .ff-news-info h1{
+        font-size: 2.2vw;
+    }
+    
+    .ff-news-info .spanff1{
+        font-size: 1.4vw;
+        color: #ffffff;
+    }
+    
+    .ff-news-info .spanff2{
+        font-size: 1.4vw;
+        color: #7e7e7e;
+    }
+
+    .third-news{
+        border-left: 0.1vw solid #000000; border-right: 0.1vw solid #000000;
+        border-radius: 0%;
+    }
+    
+    .op-news{
+        width: 22%;
+        height: auto;
+    }
+    
+    .op-news-info h1{
+        font-size: 2.2vw;
+    }
+    
+    .op-news-info .spanop1{
+        font-size: 1.4vw;
+        color: #ffffff;
+    }
+    
+    .op-news-info .spanop2{
+        font-size: 1.4vw;
+        color: #7e7e7e;
+    }
+
+    .footer .row{
+        margin-top: -4.5vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .frame1 span{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.4vw;
+        text-align: center;
+    }
+    
+    .frame2 span{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.4vw;
+        text-align: center;
+    }
+    
+    .frame3 span{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.4vw;
+        text-align: center;
+    }
+
+    .social-apps img{
+        width: 30%;
+        height: 30%;
+    }
+
+}
+
+@media(max-width: 420px){
+
+    .top-movies h1{
+        font-size: 4vw;
+    }
+
+    .gotg-info{
+        top: 10%;
+        left: 2%;
+    }
+    
+    .gotg-name{
+        font-size: 4.4vw;
+    }
+    
+    .gotg-genre{
+        font-size: 1.6vw;
+    }
+    
+    .gotg-synopsis{
+        font-size: 1.6vw;
+    }
+    
+    .gotg-direc-casts{
+        font-size: 1.6vw;
+
+    }
+    
+    .gotg-watch-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .gotg-download-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .mario-info{
+        top: 14%;
+        left: 2%;
+    }
+    
+    .mario-name{
+        font-size: 4.4vw;
+    }
+    
+    .mario-genre{
+        font-size: 1.6vw;
+    }
+    
+    .mario-synopsis{
+        font-size: 1.6vw;
+    }
+    
+    .mario-direc-casts{
+        font-size: 1.6vw;
+
+    }
+    
+    .mario-watch-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .mario-download-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .wick4-info{
+        top: 10%;
+        left: 3%;
+    }
+    
+    .wick4-name{
+        font-size: 4.4vw;
+    }
+    
+    .wick4-genre{
+        font-size: 1.6vw;
+    }
+    
+    .wick4-synopsis{
+        font-size: 1.6vw;
+    }
+    
+    .wick4-direc-casts{
+        font-size: 1.6vw;
+
+    }
+    
+    .wick4-watch-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .wick4-download-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .avatar-info{
+        top: 6%;
+        left: 2%;
+    }
+    
+    .avatar-name{
+        font-size: 4.4vw;
+    }
+    
+    .avatar-genre{
+        font-size: 1.6vw;
+    }
+    
+    .avatar-synopsis{
+        font-size: 1.6vw;
+    }
+    
+    .avatar-direc-casts{
+        font-size: 1.6vw;
+
+    }
+    
+    .avatar-watch-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .avatar-download-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .dnd-info{
+        top: 6%;
+        left: 2%;
+    }
+    
+    .dnd-name{
+        font-size: 4.4vw;
+    }
+    
+    .dnd-genre{
+        font-size: 1.6vw;
+    }
+    
+    .dnd-synopsis{
+        font-size: 1.6vw;
+    }
+    
+    .dnd-direc-casts{
+        font-size: 1.6vw;
+
+    }
+    
+    .dnd-watch-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+    
+    .dnd-download-button{
+        padding: 4% 16%;
+        font-size: 1.8vw;
+        border-radius: 1.2vw;
+    }
+
+    .news-header{
+        font-size: 4vw;
+    }
+
+    .footer .row{
+        margin-top: -4.5vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frame1{
+        margin-bottom: 3%;
+    }
+    
+    .frame2{
+        margin-bottom: 3%;
+    }
+
+    .frame3{
+        margin-bottom: 3%;
+    }
+
+    .frame1 span{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.6vw;
+        text-align: center;
+    }
+    
+    .frame2 span{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.6vw;
+        text-align: center;
+    }
+    
+    .frame3 span{
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.6vw;
+        text-align: center;
+    }
+
+    .social-apps{
+        margin-top: -4%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-apps img{
+        margin-bottom: 2%;
+        width: 40%;
+        height: 40%;
+    }
+}
